@@ -1,0 +1,193 @@
+body {
+    background: #FFB6D9;
+    font-family: "Tajawal", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 80%;
+    max-width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 100, 150, 0.3);
+}
+
+.card h2 {
+    color: #ff2b7f;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.7;
+}
+
+button {
+    background: #ff2b7f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.card {
+            background: white;
+            padding: 15px;
+            border-radius: 25px;
+            margin: 20px auto;
+            width: 90%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        video, img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        p {
+            margin-top: 10px;
+            color: #F71298;
+           font-weight: bold;
+           text-align: center;
+           font-size: 12px;
+        }
+
+.vid{
+    background: #ffb6d9;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* يخلي كل حاجة تحت بعض */
+  align-items: center;    /* يخليهم ف النص */
+  width: 100%;
+  gap: 20px;              /* مسافة بينهم */
+}
+
+.img, .vid {
+  width: 90%;             /* تخلي العرض مظبوط ومش كبير */
+  height: auto;
+  display: block;         /* يخلي كل عنصر ياخد سطر لوحده */
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 80%;
+    max-width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 100, 150, 0.3);
+}
+
+.card h2 {
+    color: #ff2b7f;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.7;
+}
+
+button {
+    background: #ff2b7f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.card {
+            background: white;
+            padding: 15px;
+            border-radius: 25px;
+            margin: 20px auto;
+            width: 90%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        video, img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        p {
+            margin-top: 10px;
+            color: #F71298;
+           font-weight: bold;
+           text-align: center;
+           font-size: 12px;
+        }
+
+.vid{
+    background: #ffb6d9;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* يخلي كل حاجة تحت بعض */
+  align-items: center;    /* يخليهم ف النص */
+  width: 100%;
+  gap: 20px;              /* مسافة بينهم */
+}
+
+.img, .vid {
+  width: 90%;             /* تخلي العرض مظبوط ومش كبير */
+  height: auto;
+  display: block;         /* يخلي كل عنصر ياخد سطر لوحده */
+}
+  <style>
+        /* تخصيص بسيط لحقول الإدخال */
+        .input-group {
+            position: relative;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border-radius: 15px;
+            border: 1px solid #bbb;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .toggle-btn {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            color: #ff2b7f;
+        }

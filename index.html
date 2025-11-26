@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الدخول</title>
+    <link rel="stylesheet" href="style.css">
+  
+    </style>=
+</head>
+<body>
+
+    <div class="card">
+        <h2>اكتبيييي تاريخناا🫶🏻</h2>
+
+        <div class="input-group">
+            <input type="password" id="pass" placeholder="اكتب الباسورد">
+            <button class="toggle-btn" onclick="togglePass()">
+            👀
+            </button>
+        </div>
+
+        <button onclick="checkPass()">دخول</button>
+    </div>
+
+    <script>
+        function checkPass() {
+            let password = document.getElementById("pass").value;
+
+            // هنا حط الباسورد اللي انت عايزه
+            if (password === "2/6") {
+                window.location.href = "page2.html";
+            } else {
+                alert("❌ الباسورد غلط يا روحي🥲🥲!");
+            }
+        }
+
+        function togglePass() {
+            let input = document.getElementById("pass");
+
+            if (input.type === "password") {
+                input.type = "text";
+            } else {
+                input.type = "password";
+            }
+        }
+    </script>
+<div class="shimmer"></div>
+<div class="stars" id="stars"></div>
+</body>
+</html>
